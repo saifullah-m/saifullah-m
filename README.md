@@ -16,10 +16,10 @@
 </p>
 
 ### Languages:
-[![My Skills](https://skillicons.dev/icons?i=c,cpp,java,mysql,html,css,js,py)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,cpp,java,mysql,js,py)](https://skillicons.dev)
 
 ### Tools and Technologies
-[![My Skills](https://skillicons.dev/icons?i=spring,git,github,idea,vscode,linux,postman)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=spring,git,idea,vscode,linux,postman)](https://skillicons.dev)
 
 <br>
 <p align="center">
