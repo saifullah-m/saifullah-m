@@ -19,7 +19,7 @@
 [![My Skills](https://skillicons.dev/icons?i=c,cpp,java,mysql,js,py)](https://skillicons.dev)
 
 ### Tools and Technologies
-[![My Skills](https://skillicons.dev/icons?i=spring,git,idea,vscode,linux,postman)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=spring,react,git,idea,vscode,linux,postman)](https://skillicons.dev)
 
 <br>
 <p align="center">
