@@ -23,5 +23,5 @@
 
 <br>
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=saifullah-1&show_icons=true&locale=en&layout=compact" alt="saifullah-1" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=saifullah-1&show_icons=true&locale=en&layout=compact&langs_count=4" alt="saifullah-1" />
 </p>
