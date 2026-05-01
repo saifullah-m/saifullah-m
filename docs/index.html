@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Saifullah Mousaad — Computer Engineering student at Alexandria University. Portfolio showcasing projects, skills, and contact info." />
+  <meta name="author" content="Saifullah Mousaad" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Saifullah Mousaad — Portfolio" />
+  <meta property="og:description" content="Computer Engineering student at Alexandria University." />
+  <meta property="og:type" content="website" />
+
+  <title>Saifullah Mousaad | Portfolio</title>
+
+  <!-- Google Fonts — Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Theme init script — inline to avoid flash of wrong theme -->
+  <script>
+    (function(){
+      var stored;
+      try { stored = localStorage.getItem('portfolio-theme'); } catch(e){}
+      var theme = stored || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- Skip link (accessibility) -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <a class="nav-logo" href="#hero">SM</a>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div style="display:flex;align-items:center;gap:0.5rem;">
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-label="Switch to dark theme"
+          title="Toggle dark/light theme"
+        >🌙</button>
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== MAIN ===== -->
+  <main id="main-content">
+
+    <!-- ── HERO ── -->
+    <section id="hero" aria-label="Introduction">
+      <div class="hero-container">
+        <span class="hero-badge">
+          <span>👋</span> Hello, I'm
+        </span>
+
+        <h1 class="hero-title">
+          Saifullah<br><span class="accent">Mousaad</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Computer Engineering student at <strong>Alexandria University</strong>.
+          Passionate about building software — from backend APIs to modern web
+          applications.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-outline" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="section-container">
+        <p class="section-label">Who I am</p>
+        <h2 class="section-title" id="about-heading">About Me</h2>
+        <div class="section-divider" role="presentation"></div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a Computer Engineering student at Alexandria University with a strong
+              interest in software development, algorithms, and system design.
+            </p>
+            <p>
+              I enjoy working across the stack — building efficient backends with Java &
+              Spring, crafting interactive frontends with React, and automating workflows
+              with Python. I'm always looking to learn and take on new challenges.
+            </p>
+            <p>
+              Outside of coding I enjoy exploring open-source projects and contributing
+              to the developer community.
+            </p>
+          </div>
+
+          <ul class="about-info-list" aria-label="Quick facts">
+            <li class="about-info-item">
+              <span class="icon" aria-hidden="true">🎓</span>
+              <div>
+                <strong>Education</strong>
+                <span>Computer Engineering — Alexandria University</span>
+              </div>
+            </li>
+            <li class="about-info-item">
+              <span class="icon" aria-hidden="true">📍</span>
+              <div>
+                <strong>Location</strong>
+                <span>Alexandria, Egypt</span>
+              </div>
+            </li>
+            <li class="about-info-item">
+              <span class="icon" aria-hidden="true">💼</span>
+              <div>
+                <strong>Focus</strong>
+                <span>Backend Development &amp; Full-Stack Web</span>
+              </div>
+            </li>
+            <li class="about-info-item">
+              <span class="icon" aria-hidden="true">📬</span>
+              <div>
+                <strong>Email</strong>
+                <span>
+                  <a href="mailto:saifullah.mousaad@gmail.com">saifullah.mousaad@gmail.com</a>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="section-container">
+        <p class="section-label">What I work with</p>
+        <h2 class="section-title" id="skills-heading">Skills</h2>
+        <div class="section-divider" role="presentation"></div>
+
+        <div class="skills-grid">
+          <!-- Languages -->
+          <div class="skills-card">
+            <h3 class="skills-card-title">
+              <span aria-hidden="true">💻</span> Languages
+            </h3>
+            <ul class="skill-tags" role="list" aria-label="Programming languages">
+              <li class="skill-tag">C</li>
+              <li class="skill-tag">C++</li>
+              <li class="skill-tag">Java</li>
+              <li class="skill-tag">Python</li>
+              <li class="skill-tag">JavaScript</li>
+              <li class="skill-tag">SQL</li>
+            </ul>
+          </div>
+
+          <!-- Frameworks & Libraries -->
+          <div class="skills-card">
+            <h3 class="skills-card-title">
+              <span aria-hidden="true">🚀</span> Frameworks &amp; Libraries
+            </h3>
+            <ul class="skill-tags" role="list" aria-label="Frameworks and libraries">
+              <li class="skill-tag">Spring Boot</li>
+              <li class="skill-tag">React</li>
+            </ul>
+          </div>
+
+          <!-- Tools & Technologies -->
+          <div class="skills-card">
+            <h3 class="skills-card-title">
+              <span aria-hidden="true">🛠️</span> Tools &amp; Technologies
+            </h3>
+            <ul class="skill-tags" role="list" aria-label="Tools and technologies">
+              <li class="skill-tag">Git</li>
+              <li class="skill-tag">Docker</li>
+              <li class="skill-tag">Linux</li>
+              <li class="skill-tag">Postman</li>
+              <li class="skill-tag">MySQL</li>
+              <li class="skill-tag">IntelliJ IDEA</li>
+              <li class="skill-tag">VS Code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <div class="section-container">
+        <p class="section-label">What I've built</p>
+        <h2 class="section-title" id="projects-heading">Projects</h2>
+        <div class="section-divider" role="presentation"></div>
+
+        <!-- ╔══════════════════════════════════════════╗
+             ║  EDIT THIS SECTION to add your projects ║
+             ╚══════════════════════════════════════════╝
+             To add a project:
+               1. Duplicate one of the <article> blocks below.
+               2. Update title, description, tags, and link hrefs.
+               3. Replace href="#" with your real GitHub repo URL
+                  and (optionally) a live demo URL.
+        -->
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-icon" aria-hidden="true">🗂️</span>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="Source code for Project Title 1">
+                  ⌥ Code
+                </a>
+                <!-- Uncomment and update href when you have a live demo:
+                <a href="#" class="project-link" aria-label="Live demo for Project Title 1">
+                  ↗ Demo
+                </a>
+                -->
+              </div>
+            </div>
+            <h3 class="project-title">Project Title 1</h3>
+            <p class="project-description">
+              A brief description of what this project does and the problem it solves.
+              Replace this with your actual project description.
+            </p>
+            <ul class="project-tags" aria-label="Technologies used">
+              <li class="project-tag">Java</li>
+              <li class="project-tag">Spring Boot</li>
+              <li class="project-tag">MySQL</li>
+            </ul>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-icon" aria-hidden="true">🌐</span>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="Source code for Project Title 2">
+                  ⌥ Code
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Project Title 2</h3>
+            <p class="project-description">
+              A brief description of what this project does and the problem it solves.
+              Replace this with your actual project description.
+            </p>
+            <ul class="project-tags" aria-label="Technologies used">
+              <li class="project-tag">React</li>
+              <li class="project-tag">JavaScript</li>
+              <li class="project-tag">CSS</li>
+            </ul>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-icon" aria-hidden="true">🤖</span>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="Source code for Project Title 3">
+                  ⌥ Code
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Project Title 3</h3>
+            <p class="project-description">
+              A brief description of what this project does and the problem it solves.
+              Replace this with your actual project description.
+            </p>
+            <ul class="project-tags" aria-label="Technologies used">
+              <li class="project-tag">Python</li>
+              <li class="project-tag">Docker</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="section-container">
+        <p class="section-label">Let's connect</p>
+        <h2 class="section-title" id="contact-heading">Contact</h2>
+        <div class="section-divider" role="presentation"></div>
+
+        <p style="color:var(--text-muted);margin-bottom:2rem;max-width:480px;">
+          Feel free to reach out — whether it's about a project, an opportunity,
+          or just to say hi.
+        </p>
+
+        <div class="contact-grid">
+          <a
+            href="https://linkedin.com/in/saifullahmousaad"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-card"
+            aria-label="Connect on LinkedIn"
+          >
+            <span class="contact-card-icon" aria-hidden="true">💼</span>
+            <div class="contact-card-info">
+              <strong>LinkedIn</strong>
+              <span>linkedin.com/in/saifullahmousaad</span>
+            </div>
+          </a>
+
+          <a
+            href="mailto:saifullah.mousaad@gmail.com"
+            class="contact-card"
+            aria-label="Send an email to saifullah.mousaad@gmail.com"
+          >
+            <span class="contact-card-icon" aria-hidden="true">✉️</span>
+            <div class="contact-card-info">
+              <strong>Email</strong>
+              <span>saifullah.mousaad@gmail.com</span>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/saifullah-m"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-card"
+            aria-label="View GitHub profile"
+          >
+            <span class="contact-card-icon" aria-hidden="true">🐙</span>
+            <div class="contact-card-info">
+              <strong>GitHub</strong>
+              <span>github.com/saifullah-m</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer role="contentinfo">
+    <div class="footer-container">
+      <p>
+        &copy; <span id="year"></span> Saifullah Mousaad &mdash; Built with HTML, CSS &amp; JS
+        &bull;
+        <a
+          href="https://github.com/saifullah-m/Saifullah-1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >View source</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
