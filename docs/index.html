@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Saifullah Mousaad — Backend engineer and CS graduate from Alexandria University. Java, Spring Boot, distributed systems." />
+  <meta name="author" content="Saifullah Mousaad" />
+  <meta property="og:title" content="Saifullah Mousaad" />
+  <meta property="og:description" content="Backend engineer. Java, Spring Boot, distributed systems. Alexandria University." />
+  <meta property="og:type" content="website" />
+  <title>Saifullah Mousaad</title>
+
+  <!-- Fonts: DM Serif Display (hero) + DM Mono (accents) + Instrument Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script>
+    (function(){
+      var s; try { s = localStorage.getItem('portfolio-theme'); } catch(e){}
+      var t = s || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <a class="nav-logo" href="#hero">SM</a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch theme">
+          <span class="theme-icon">◐</span>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section id="hero" aria-label="Introduction">
+      <div class="hero-container">
+        <div class="hero-eyebrow">
+          <span class="mono">00 — Introduction</span>
+        </div>
+        <h1 class="hero-title">
+          Saifullah<br>
+          <em>Mousaad</em>
+        </h1>
+        <p class="hero-sub">
+          Backend engineer. Final-year CS at Alexandria University.<br>
+          Building APIs, learning distributed systems, shipping code.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-scroll-hint" aria-hidden="true">
+          <span class="mono">scroll ↓</span>
+        </div>
+      </div>
+      <div class="hero-bg-text" aria-hidden="true">SWE</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="section-container">
+        <div class="section-meta">
+          <span class="mono section-num">01</span>
+          <span class="section-rule"></span>
+          <span class="mono section-label">About</span>
+        </div>
+        <h2 class="section-title" id="about-heading">Who I am</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a Computer Engineering student at Alexandria University in my final year,
+              focused on backend development with Java and Spring Boot.
+            </p>
+            <p>
+              I care about writing software that works correctly, scales reasonably, and
+              is easy for other engineers to understand.
+              I genuinely want to understand how things work under the hood.
+            </p>
+            <p>
+              I'm actively looking forward to contributing to open source to build real collaboration
+              experience, and I'm looking for a backend role where I can
+              keep learning fast with a strong team.
+            </p>
+          </div>
+
+          <ul class="about-facts" aria-label="Quick facts">
+            <li>
+              <span class="fact-key mono">Degree</span>
+              <span class="fact-val">Computer & Systems Engineering - Alexandria University</span>
+            </li>
+            <li>
+              <span class="fact-key mono">Location</span>
+              <span class="fact-val">Alexandria, Egypt</span>
+            </li>
+            <li>
+              <span class="fact-key mono">Focus</span>
+              <span class="fact-val">Software  ·  Backend  ·  Java Development</span>
+            </li>
+            <li>
+              <span class="fact-key mono">Status</span>
+              <span class="fact-val">Open to junior roles &amp; internships</span>
+            </li>
+            <li>
+              <span class="fact-key mono">Email</span>
+              <span class="fact-val">
+                <a href="mailto:saifullah.mousaad@gmail.com">saifullah.mousaad@gmail.com</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- <div class="currently-block">
+          <span class="mono currently-label">Currently </span>
+          <ul class="currently-list">
+            <li>Backend Fundamentals (Hussein Nasser) + CMU Databases</li>
+            <li>Building a Spring Boot REST API with auth, PostgreSQL &amp; Docker</li>
+            <li>Reading <em>Designing Data-Intensive Applications</em></li>
+            <li>First open source contributions in progress</li>
+          </ul>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="section-container">
+        <div class="section-meta">
+          <span class="mono section-num">02</span>
+          <span class="section-rule"></span>
+          <span class="mono section-label">Skills</span>
+        </div>
+        <h2 class="section-title" id="skills-heading">What I work with</h2>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3 class="skill-group-title mono">Languages</h3>
+            <ul class="skill-tags" role="list">
+              <li class="skill-tag">Java</li>
+              <li class="skill-tag">Python</li>
+              <li class="skill-tag">C / C++</li>
+              <li class="skill-tag">JavaScript</li>
+              <li class="skill-tag">SQL</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title mono">Frameworks</h3>
+            <ul class="skill-tags" role="list">
+              <li class="skill-tag">Spring Boot</li>
+              <li class="skill-tag">Hibernate</li>
+              <li class="skill-tag">React</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title mono">Tools</h3>
+            <ul class="skill-tags" role="list">
+              <li class="skill-tag">Git</li>
+              <li class="skill-tag">Linux</li>
+              <li class="skill-tag">Docker</li>
+              <li class="skill-tag">MySQL</li>
+              <!-- <li class="skill-tag">PostgreSQL</li> -->
+              <li class="skill-tag">Postman</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title mono">Learning</h3>
+            <ul class="skill-tags" role="list">
+              <li class="skill-tag learning">Kubernetes</li>
+              <!-- <li class="skill-tag learning">Distributed Systems</li> -->
+              <li class="skill-tag learning">NoSQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <div class="section-container">
+        <div class="section-meta">
+          <span class="mono section-num">03</span>
+          <span class="section-rule"></span>
+          <span class="mono section-label">Projects</span>
+        </div>
+        <h2 class="section-title" id="projects-heading">What I've built</h2>
+
+        <!--
+          TO ADD A PROJECT:
+          1. Duplicate an <article class="project-card"> block below.
+          2. Fill in: title, description, tags, and the href links.
+          3. Replace href="#" with your real GitHub repo URL.
+        -->
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-card-top">
+              <span class="project-num mono">01</span>
+              <div class="project-links">
+                <a href="#" class="project-link mono" aria-label="Source code for Project 1">
+                  Code 🚫
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">TechForum: A Q&A Platform for Developers</h3>
+            <p class="project-desc">
+              A full-stack web application that allows developers to ask questions, share knowledge, and collaborate on coding problems. <br>
+              The project is currently in development, and I'm implementing features like user authentication, question tagging, and a voting system.
+            </p>
+            <ul class="project-tags" aria-label="Technologies used">
+              <li>Java</li>
+              <li>Spring Boot</li>
+              <li>PostgreSQL</li>
+              <li>Redis</li>
+              <li>Docker</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-top">
+              <span class="project-num mono">02</span>
+              <div class="project-links">
+                <a href="https://github.com/saifullah-m/marketly" class="project-link mono" aria-label="Source code for Project 2">
+                  Code ⌥
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Marketly</h3>
+            <p class="project-desc">
+              A full-stack web application built with Java, Spring Boot, and React that consumes a public REST API to display real-time stock market data. <br>
+              It features interactive charts, search functionality, and a responsive design.
+            </p>
+            <ul class="project-tags" aria-label="Technologies used">
+              <li>Spring Boot</li>
+              <li>React</li>
+              <li>MySQL</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-top">
+              <span class="project-num mono">03</span>
+              <div class="project-links">
+                <a href="https://gist.github.com/saifullah-m/5f9889ad6c39fe859e9d6113bb3669e6" class="project-link mono" aria-label="Source code for Project 3">
+                  Code ⌥
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Huffman Compressor</h3>
+            <p class="project-desc">
+              A lossless data compression engine implementing Huffman Coding with n-gram generalization, utilizing Min-Heap (Priority Queue) to construct an optimal prefix-code binary tree.
+            </p>
+            <ul class="project-tags" aria-label="Technologies used">
+              <li>Java</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-top">
+              <span class="project-num mono">04</span>
+              <div class="project-links">
+                <a href="https://github.com/saifullah-m/PintOS" class="project-link mono" aria-label="Source code for Project 4">
+                  Code ⌥
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">PintOS</h3>
+            <p class="project-desc">
+              An open source instructional operating system kernel developed by <b>Stanford University</b>. <br>
+              It includes features like threading, virtual memory, file systems, and system calls. <br>
+              This project deepened my understanding of low-level programming and OS concepts.
+            </p>
+            <ul class="project-tags" aria-label="Technologies used">
+              <li>C</li>
+              <li>CMake</li>
+              <li>Docker</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="section-container">
+        <div class="section-meta">
+          <span class="mono section-num">04</span>
+          <span class="section-rule"></span>
+          <span class="mono section-label">Contact</span>
+        </div>
+        <h2 class="section-title" id="contact-heading">Let's talk</h2>
+        <p class="contact-intro">
+          I'm looking for backend or full-stack roles and internships.
+          If you're hiring, collaborating, or just want to connect — reach out.
+        </p>
+
+        <div class="contact-grid">
+          <a href="mailto:saifullah.mousaad@gmail.com" class="contact-card" aria-label="Send email">
+            <span class="contact-type mono">Email</span>
+            <span class="contact-value">saifullah.mousaad@gmail.com</span>
+            <span class="contact-arrow">↗</span>
+          </a>
+          <a href="https://linkedin.com/in/saifullahmousaad" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="LinkedIn profile">
+            <span class="contact-type mono">LinkedIn</span>
+            <span class="contact-value">saifullahmousaad</span>
+            <span class="contact-arrow">↗</span>
+          </a>
+          <a href="https://github.com/saifullah-m" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="GitHub profile">
+            <span class="contact-type mono">GitHub</span>
+            <span class="contact-value">saifullah-m</span>
+            <span class="contact-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <div class="footer-container">
+      <span class="mono">Saifullah Mousaad &mdash; <span id="year"></span></span>
+      <a href="https://github.com/saifullah-m/saifullah-m" target="_blank" rel="noopener noreferrer" class="mono">&lt;/&gt; Source ↗</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
