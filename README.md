@@ -1,9 +1,6 @@
 <h1 align="center">Saifullah Mousaad</h1>
 
 <p align="center">
-  Final-year Computer Engineering student focused on Java, Spring Boot, and web development.
-</p>
-<p align="center">
   <a href="https://linkedin.com/in/saifullahmousaad" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-saifullahmousaad-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -18,25 +15,19 @@
 
 ---
 
-### About
+### About Me
 
-I enjoy building reliable software, working in collaborative teams, and digging into low-level details to understand how systems behave from the ground up.
-
-I am comfortable with Agile workflows, Git-based collaboration, and shipping practical web applications with a focus on clean implementation.
-
-### Languages
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,py,c,cpp,js,mysql" alt="Languages" />
-  </a>
-</p>
+- Final-year Computer Engineering student focused on Java, Spring Boot, and web development.
+- I enjoy building reliable software, working in collaborative teams, 
+and digging into low-level details.
+- I am comfortable with Agile workflows, Git-based collaboration, 
+and shipping practical web applications.
 
 ### Tools and Technologies
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=spring,react,git,linux,postman,docker,idea,vscode" alt="Tools and Technologies" />
+    <img src="https://skillicons.dev/icons?i=java,py,c,cpp,js,mysql,spring,hibernate,react,git,linux,postman,docker,idea,vscode,md,obsidian" alt="Languages" />
   </a>
 </p>
 
