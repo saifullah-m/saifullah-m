@@ -32,11 +32,12 @@ and shipping practical web applications.
 </p>
 
 ### GitHub Stats
-
 <p align="center">
   <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=saifullah-m" alt="Streak Stats" />
 </p>
-
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=saifullah-m&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=saifullah-m&layout=compact&hide=jupyter%20notebook&langs_count=6&count_private=true" alt="Top Languages" />
 </p>
+<!-- <p align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=saifullah-m&show_icons=true&count_private=true&hide=stars" alt="GitHub Stats" />
+</p> -->
